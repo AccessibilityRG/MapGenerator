@@ -1,4 +1,13 @@
 # -*- coding: cp1252 -*-
+
+#---------------------------------------------
+# METROPACCESS-MAPGENERATOR
+# Accessibility Research Group
+# University of Helsinki
+# Authored by Henrikki Tenkanen
+# Licenced with GNU General Public License v3.
+#---------------------------------------------
+
 import os, wx
 
 #Inspired from: http://wiki.wxpython.org/AnotherTutorial, http://www.blog.pythonlibrary.org/2010/05/15/manipulating-pdfs-with-python-and-pypdf/

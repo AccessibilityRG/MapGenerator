@@ -1,3 +1,13 @@
+# -*- coding: cp1252 -*-
+
+#---------------------------------------------
+# METROPACCESS-MAPGENERATOR
+# Accessibility Research Group
+# University of Helsinki
+# Authored by Henrikki Tenkanen
+# Licenced with GNU General Public License v3.
+#---------------------------------------------
+
 import os, sys
 from threading import Thread
 import wx
