@@ -6,9 +6,9 @@ MetropAccess-MapGenerator is a tool for automatic visualization of travel times/
 Dependencies
 ============
 
-'''MetropAccess-MapGenerator''' is written in Python and has several dependencies. Following Python modules (and their dependencies) are required:
+MetropAccess-MapGenerator is written in Python and has several dependencies. Following Python modules (and their dependencies) are required:
 
-wxPython
+'wxPython'
 pandas
 numpy
 itertools
