@@ -1,6 +1,9 @@
 #MapGenerator
 
-MetropAccess-MapGenerator is a tool for automatic visualization of travel times/distances in Helsinki Region. Tool is designed for MetropAccess-Travel Time Matrix data that has travel time/distance information for different travel modes that are comparable: public transportation, private car and walk.
+MetropAccess-MapGenerator is a simple GIS-tool for automatic visualization of travel time/distance maps (i.e. accessibility) for Helsinki Region (Finland) based on public transportation, private car or walking. 
+Tool makes it easy to create multiple (hundreds) of accessibility surface maps and it is designed to be used with 
+MetropAccess-Travel Time Matrix datasets that are publicly available [here](http://blogs.helsinki.fi/accessibility/data/metropaccess-travel-time-matrix/).
+
 
 #Dependencies
 
@@ -18,8 +21,14 @@ MetropAccess-MapGenerator is written in Python (tested with version  2.7.6) and 
 
 #Usage
 
-MapGenerator has following looking GUI:
+MetropAccess-MapGenerator has a simple graphical user interface that asks input files (available here) and different parameters for running the tool:
 
+
+- Travel mode: time/distance by Public transportation, Private Car or Walking
+
+- Classification method: 5 minutes equal intervals, 10 minutes equal intervals, Natural Breaks, Fisher Jenks ...
+
+- Number of classes: Determines how many classes will be used to classify the data in visualization.
 
 
 
