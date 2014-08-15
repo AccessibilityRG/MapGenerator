@@ -278,7 +278,7 @@ class DialogPanel(wx.Panel):
     #----------------------------------------------------------------------
     def CheckPaths(self, event):
         """
-        Join the two PDFs together and save the result to the desktop
+        Check that all necessary files are included.
         """
         inputs = self.InputFold.GetValue()
         Ykr = self.YkrPath.GetValue()
@@ -405,5 +405,5 @@ def mainDialog():
 
 if __name__ == "__main__":
     mainDialog()
-    #mainInfo()
+
 
