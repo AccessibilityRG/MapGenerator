@@ -18,6 +18,10 @@ MetropAccess-MapGenerator is written in Python (tested with version  2.7.6) and 
 
 #Usage
 
+MapGenerator has following looking GUI:
+
+
+
 
 
 
