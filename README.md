@@ -34,7 +34,7 @@ MetropAccess-MapGenerator is executed by double clicking the ```MetropAccess-Map
 - MetropAccess-Coastline (.shp) (optional): A shapefile for visualizing coastline of Helsinki Region
 - MetropAccess-Roads (.shp) (optional): A shapefile for visualizing major roads of Helsinki Region
 - MetropAccess-Metro (.shp) (optional): A shapefile for visualizing metro lines of Helsinki Region
-- Population info (.txt) (optional): A text file [(see example)](http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/PopulationFileExample.PNG) containing population information for each YKR-grid cell (need to have following attributes separated with semicolon: YKR-ID; Population)
+- Population info (.txt) (optional): A text file [(see example)](http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/PopulationFileExample.PNG) containing population information for each YKR-grid cell (--> need to have following attributes separated with semicolon: YKR-ID; Population)
 - Travel mode: time/distance by Public transportation, Private Car or Walking
 - Classification method: 5 minutes equal intervals, 10 minutes equal intervals, Natural Breaks, Quantiles, Fisher Jenks
 - N. classes: Determines how many classes will be used to classify the data in visualization.
