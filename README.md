@@ -7,7 +7,7 @@ MetropAccess-Travel Time Matrix datasets that are publicly available [here](http
 
 #Dependencies
 
-MetropAccess-MapGenerator is written in Python (tested with version  2.7.6) and has several dependencies. Following Python modules (and their dependencies) are required:
+MetropAccess-MapGenerator is written in Python (tested with version 2.7.6) and has several dependencies. Following Python modules (and their dependencies) are required:
 
 - [wxPython](http://downloads.sourceforge.net/wxpython/wxPython3.0-win64-3.0.0.0-py27.exe)
 - [pandas](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pandas)
@@ -23,14 +23,14 @@ MetropAccess-MapGenerator is written in Python (tested with version  2.7.6) and 
 
 MetropAccess-MapGenerator has a simple graphical user interface that asks input files (available here) and different parameters for running the tool:
 
-![MetropAccess-MapGenerator User Interface](http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/Dialog.PNG)
+[![MetropAccess-MapGenerator User Interface](http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/Dialog.PNG)](http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/DialogLarge.PNG)
 
 
 - Travel mode: time/distance by Public transportation, Private Car or Walking
 
 - Classification method: 5 minutes equal intervals, 10 minutes equal intervals, Natural Breaks, Fisher Jenks ...
 
-- Number of classes: Determines how many classes will be used to classify the data in visualization.
+- N. classes: Determines how many classes will be used to classify the data in visualization.
 
 
 
