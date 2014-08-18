@@ -5,9 +5,9 @@ Tool makes it easy to create multiple (hundreds) of accessibility surface maps a
 MetropAccess-Travel Time Matrix datasets that are publicly available [here](http://blogs.helsinki.fi/accessibility/data/metropaccess-travel-time-matrix/).
 
 
-#Dependencies
+#Installation
 
-MetropAccess-MapGenerator is written in Python (tested with version 2.7.6) and has several dependencies. Following Python modules (and their dependencies) are required:
+1. MetropAccess-MapGenerator is written in Python (tested with version 2.7.6) and has several dependencies. Following Python modules (and their dependencies) need to be properly installed:
 
 - [wxPython](http://downloads.sourceforge.net/wxpython/wxPython3.0-win64-3.0.0.0-py27.exe)
 - [pandas](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pandas)
@@ -19,11 +19,15 @@ MetropAccess-MapGenerator is written in Python (tested with version 2.7.6) and h
 - [matplotlib](https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.3.1/matplotlib-1.3.1.win-amd64-py2.7.exe)
 - [mpl-toolkits.basemap](http://sourceforge.net/projects/matplotlib/files/matplotlib-toolkits/basemap-1.0.7/basemap-1.0.7.win-amd64-py2.7.exe/download)
 
+2. [Download](https://github.com/AccessibilityRG/MapGenerator/archive/master.zip) the source code
+
+3. Extract zip-file
+
+4. Execute the tool by double clicking the ```MetropAccess-MapGenerator_main.py``` file.
+
 #Usage
 
-MetropAccess-MapGenerator is executed by double clicking the ```MetropAccess-MapGenerator_main.py``` file.
-
- The tool has a simple graphical user interface that asks input files (available [here](http://blogs.helsinki.fi/accessibility/data/metropaccess-travel-time-matrix/) and
+The tool has a simple graphical user interface that asks input files (available [here](http://blogs.helsinki.fi/accessibility/data/metropaccess-travel-time-matrix/) and
   [here](http://www.helsinki.fi/science/accessibility/data/MetropAccess-MapGenerator/MetropAccess-MapGenerator_VisFiles.zip)) and different parameters for running the tool:
 
 <img src="http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/DialogLarge.PNG" alt="MetropAccess-MapGenerator User Interface" width="448px" height="306px" />
@@ -39,7 +43,7 @@ MetropAccess-MapGenerator is executed by double clicking the ```MetropAccess-Map
 - Classification method: 5 minutes equal intervals, 10 minutes equal intervals, Natural Breaks, Quantiles, Fisher Jenks
 - N. classes: Determines how many classes will be used to classify the data in visualization.
 
-
+#
 
 
 
