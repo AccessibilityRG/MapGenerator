@@ -5,9 +5,8 @@ Tool makes it easy to create multiple (hundreds) of accessibility surface maps a
 MetropAccess-Travel Time Matrix datasets that are publicly available [here](http://blogs.helsinki.fi/accessibility/data/metropaccess-travel-time-matrix/).
 
 
-#Installation
-
-1. MetropAccess-MapGenerator is written in Python (tested with version 2.7.6) and has several dependencies. Following Python modules (and their dependencies) need to be properly installed:
+#Dependencies
+MetropAccess-MapGenerator is written in Python (tested with version 2.7.6) and has several dependencies. Following Python modules (and their dependencies) need to be properly installed:
 
 - [wxPython](http://downloads.sourceforge.net/wxpython/wxPython3.0-win64-3.0.0.0-py27.exe)
 - [pandas](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pandas)
@@ -19,9 +18,12 @@ MetropAccess-Travel Time Matrix datasets that are publicly available [here](http
 - [matplotlib](https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.3.1/matplotlib-1.3.1.win-amd64-py2.7.exe)
 - [mpl-toolkits.basemap](http://sourceforge.net/projects/matplotlib/files/matplotlib-toolkits/basemap-1.0.7/basemap-1.0.7.win-amd64-py2.7.exe/download)
 
+#Installation
+1. Make sure that all the dependencies are properly installed.
+
 2. [Download](https://github.com/AccessibilityRG/MapGenerator/archive/master.zip) the source code
 
-3. Extract zip-file
+3. Extract the zip-file
 
 4. Execute the tool by double clicking the ```MetropAccess-MapGenerator_main.py``` file.
 
