@@ -45,7 +45,9 @@ The tool has a simple graphical user interface that asks input files (available 
 - Classification method: 5 minutes equal intervals, 10 minutes equal intervals, Natural Breaks, Quantiles, Fisher Jenks
 - N. classes: Determines how many classes will be used to classify the data in visualization.
 
-#
+#Examples
+The tool generates following kind of accessibility maps (measures: travel time/distance) with additional diagrams (optional) about population and travel times/distances:
+<img src="http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/Pks_PublicTransport_Dance_with_Accessibility.png" alt="MetropAccess-MapGenerator results animation" width="448px" height="306px" />
 
 
 
