@@ -12,7 +12,7 @@ import os, sys
 from threading import Thread
 import wx
 from wx.lib.pubsub import pub
-from MapGenerator import MetropAccess_MapGenerator_classes as MGC
+import MetropAccess_MapGenerator_classes as MGC
 import MetropAccess_MG_dialog as MGD
 
 
