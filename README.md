@@ -49,8 +49,9 @@ The tool has a simple graphical user interface that asks input files (available 
 The tool generates following kind of accessibility maps (measures: travel time/distance) with additional diagrams (optional) about population and travel times/distances:
 <img src="http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/time_to_5956551PT_time.png" alt="MetropAccess-MapGenerator result example" width="448px" height="306px" />
 
-[Animation] (http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/Pks_PublicTransport_Dance_with_Accessibility.png)
+Example [Animation] (http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/Pks_PublicTransport_Dance_with_Accessibility.png)
 
-
+#Developers
+[Accessibility Research Group](http://blogs.helsinki.fi/accessibility/): Henrikki Tenkanen
 
 
