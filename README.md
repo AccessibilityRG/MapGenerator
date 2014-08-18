@@ -25,11 +25,11 @@ MetropAccess-MapGenerator has a simple graphical user interface that asks input 
 
 <img src="http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/DialogLarge.PNG" alt="MetropAccess-MapGenerator User Interface" width="448px" height="306px" />
 
-
+- Input folder (travel time matrices): a folder containing all the [MetropAccess-Travel Time Matrices](http://blogs.helsinki.fi/accessibility/data/metropaccess-travel-time-matrix/) that will be visualized
+- MetropAccess-YKR-grid (.shp): A grid that will used for visualizing the travel times/distances in ESRI Shapefile format
+- Population info (optional): A text file [(see example)](http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/PopulationFileExample.PNG) containing population information for each YKR-grid cell (need to have following attributes separated with semicolon: YKR-ID; Population)
 - Travel mode: time/distance by Public transportation, Private Car or Walking
-
 - Classification method: 5 minutes equal intervals, 10 minutes equal intervals, Natural Breaks, Fisher Jenks ...
-
 - N. classes: Determines how many classes will be used to classify the data in visualization.
 
 
