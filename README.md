@@ -21,7 +21,10 @@ MetropAccess-MapGenerator is written in Python (tested with version 2.7.6) and h
 
 #Usage
 
-MetropAccess-MapGenerator has a simple graphical user interface that asks input files (available here) and different parameters for running the tool:
+MetropAccess-MapGenerator is executed by double clicking the ```MetropAccess-MapGenerator_main.py``` file.
+
+ The tool has a simple graphical user interface that asks input files (available [here](http://blogs.helsinki.fi/accessibility/data/metropaccess-travel-time-matrix/) and
+  [here](http://www.helsinki.fi/science/accessibility/data/MetropAccess-MapGenerator/MetropAccess-MapGenerator_VisFiles.zip)) and different parameters for running the tool:
 
 <img src="http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/DialogLarge.PNG" alt="MetropAccess-MapGenerator User Interface" width="448px" height="306px" />
 
@@ -33,7 +36,7 @@ MetropAccess-MapGenerator has a simple graphical user interface that asks input 
 - MetropAccess-Metro (.shp) (optional): A shapefile for visualizing metro lines of Helsinki Region
 - Population info (.txt) (optional): A text file [(see example)](http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/PopulationFileExample.PNG) containing population information for each YKR-grid cell (need to have following attributes separated with semicolon: YKR-ID; Population)
 - Travel mode: time/distance by Public transportation, Private Car or Walking
-- Classification method: 5 minutes equal intervals, 10 minutes equal intervals, Natural Breaks, Fisher Jenks ...
+- Classification method: 5 minutes equal intervals, 10 minutes equal intervals, Natural Breaks, Quantiles, Fisher Jenks
 - N. classes: Determines how many classes will be used to classify the data in visualization.
 
 
