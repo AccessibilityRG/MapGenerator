@@ -23,6 +23,8 @@ MetropAccess-MapGenerator is written in Python (tested with version  2.7.6) and 
 
 MetropAccess-MapGenerator has a simple graphical user interface that asks input files (available here) and different parameters for running the tool:
 
+![MetropAccess-MapGenerator User Interface](http://www.helsinki.fi/science/accessibility/maintenance/Kuvia/Dialog.PNG)
+
 
 - Travel mode: time/distance by Public transportation, Private Car or Walking
 
